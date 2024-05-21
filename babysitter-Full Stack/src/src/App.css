@@ -1,0 +1,150 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.footer-container {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-icons {
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  color: #fff;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+
+.social-icons a:hover {
+  color: #ffcc00; 
+}
+
+
+.search-page {
+  background-color: #3498db; 
+  color: #fff; 
+  padding: 20px; 
+}
+
+.navbar {
+  text-align: center; 
+}
+
+.babysitter-Nos {
+  display: flex; 
+  flex-wrap: wrap; 
+}
+
+.babysitter-No{
+  background-color: #fff; 
+  color: #333; 
+  border-radius: 5px; 
+  padding: 20px; 
+  margin: 10px; 
+  width: calc(33.33% - 20px);
+  box-sizing: border-box; 
+}
+
+
+.flight-card h3 {
+  margin-top: 0; 
+  margin-bottom: 10px; 
+}
+
+
+
+/* AdminPage.css */
+.admin-page {
+  text-align: center;
+}
+
+.navbar {
+  background-color: #e7d801;
+  color: white;
+  padding: 10px;
+}
+
+.form-container {
+  margin: 0 auto; 
+  width: 300px;
+  text-align: left; 
+}
+
+.form-container h3 {
+  margin-bottom: 10px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #b18409;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
